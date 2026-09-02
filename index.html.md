@@ -1,0 +1,49 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Bus Tracking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚌 College Bus Tracking System</h1>
+        <p>Track your college bus easily</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Bus Information</h2>
+
+            <div class="info">
+                <p><strong>Bus Number:</strong> AP 05 AB 1234</p>
+                <p><strong>Route:</strong> Kakinada → College</p>
+                <p><strong>Driver:</strong> Ramesh</p>
+                <p><strong>Status:</strong> <span id="status">On Route</span></p>
+            </div>
+
+            <button onclick="trackBus()">Track Bus</button>
+
+            <div id="location">
+                📍 Click "Track Bus" to view bus location.
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Estimated Arrival</h2>
+            <p class="time" id="time">15 minutes</p>
+            <p>Estimated time to reach college</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 College Bus Tracking System | Developed by Satya</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
